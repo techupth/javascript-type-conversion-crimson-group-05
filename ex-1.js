@@ -1,8 +1,9 @@
 let accountBalance = 400;
-let depositAmountFromUser = "10";
+let depositAmountFromUser = 10;
 
 accountBalance = accountBalance + depositAmountFromUser;
 
-let accountBalanceMessage = "Your account balance is " + accountBalance;
+let accountBalanceMessage = "Your account balance is ${accountBalance}";
 
-console.log(accountBalanceMessage);
+console.log(accountBalanceMessage); //
+
